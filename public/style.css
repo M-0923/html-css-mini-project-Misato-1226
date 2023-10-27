@@ -17,3 +17,304 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*general*/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: var(--base-color);
+}
+
+nav {
+  margin-right: 5%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+ margin-left: 30px;
+ color: #828b9a;
+ text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  margin: auto 0% auto 7%;
+}
+
+main {
+  color: var(--primary-color);
+}
+
+section {
+  margin-top: 250px;
+}
+
+section h3 {
+  font-size: 83px;
+  font-family: var(--header-font)
+}
+
+section h4 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: var(--base-font);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.button {
+  border: 1px var(--secondary-color) solid;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button a {
+ font-size: 28px;
+ text-transform: uppercase;
+ font-weight: 300;
+ font-family: var(--base-font);
+}
+
+/*header*/
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+#header h1 {
+  font-family: var(--header-font);
+  font-size: 32px;
+  color: var(--logo-color);
+}
+
+
+.backgroundimage1 {
+  position: relative;
+  background-image: url(images/banner.png);
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}
+
+.backgroundimage1 h2 {
+  position: absolute;
+  font-size: 120px;
+  color: var(--base-color);
+  font-family: var(--header-font);
+  top: 25%;
+  right: 6%;
+}
+
+.backgroundimage1 p {
+  position: absolute;
+  top: 45%;
+  right: 13%;
+  font-size: 20px;
+  color: #828b9a;
+  font-family: var(--base-font) 
+}
+
+/*iceandsnow*/
+
+#iceandsnow {
+  text-align: center;
+}
+
+#iceandsnow div {
+  width: 850px;
+  height: 595px;
+  margin: 0 auto;
+}
+
+/*airplane*/
+
+#airplane {
+  margin-right: 5%;
+
+}
+
+#airplane .flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+#airplane ul {
+  list-style: none;
+}
+
+#airplane li {
+  font-size: 45px;
+  font-family: var(--header-font);
+  border-bottom: 4px var(--secondary-color) solid;
+  padding-bottom:50px;
+  text-align: left;
+  margin-left: 70px;
+  text-indent: -70px;
+}
+
+
+#airplane li span {
+  font-size: 110px;
+}
+/*
+#airplane .border {
+  border-bottom: 4px var(--secondary-color) solid;
+  padding-bottom: 77.5px;
+}
+*/
+
+
+#airplane .image {
+  overflow: hidden;
+  margin-right: 90px;
+  margin-bottom: 200px;
+}
+
+#airplane .image img {
+  width: 900px;
+  height: 1084px;
+}
+
+#airplane .square {
+  position: absolute;
+  height: 76px;
+  width: 121px;
+  background-color: var(--secondary-color);
+  top: 20%;
+  left: 50%;
+}
+
+
+/*intheatlantic*/
+
+#intheatlantic {
+  margin-top: 100px;
+  position: relative;
+}
+
+#intheatlantic .flex {
+  display: flex;
+}
+
+#intheatlantic h3 {
+  margin: 40px auto;
+}
+
+#intheatlantic h4 {
+  margin-top: 20px;
+}
+
+#intheatlantic h5 {
+  font-size: 28px;
+  font-family: var(--base-font);
+  color: var(--secondary-color);
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 50px auto;
+}
+
+#intheatlantic .button {
+width: 237px;
+}
+
+#intheatlantic .button a {
+  color: var(--secondary-color);
+}
+
+#intheatlantic .left {
+  width: 1000px;
+}
+
+#intheatlantic .right {
+  overflow: hidden;
+  width: 900px;
+  height: 1000px;
+}
+
+#intheatlantic .right img {
+  margin-left: 70px;
+}
+
+
+
+#aurora {
+  display: flex;
+}
+
+#aurora .container {
+  width: 720px;
+  height: 411px;
+  position: absolute;
+  top: 25%;
+}
+
+#aurora h3 {
+  margin: 40px auto;
+}
+
+#aurora h4 {
+  margin-top: 20px;
+}
+
+#aurora .button {
+  width: 263px;
+  background-color: rgb(173, 173, 173, 0.3);
+}
+
+#aurora .button a{
+  color: var(--primary-color);
+}
+
+#aurora p {
+  font-family: var(--header-font);
+  font-size: 36px;
+}
+
+/*auroraの背景画像*/
+.backgroundimage2 {
+  background-image: url(images/aurora.png);
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  position: relative;
+}
+
+#footer {
+  color: #828b9a;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px var(--horizontal-line-color) solid;
+  padding: 20px;
+  
+}
+
+#footer p {
+  margin-left: 50px;
+}
